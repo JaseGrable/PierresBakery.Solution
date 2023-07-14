@@ -2,9 +2,7 @@
 
 #### This is a C# console application project for Epicodus boot camp.
 
-#### | **By Jase Grable** | **Github** | **LinkedIn** |
-
-| Jase Grable | [Github](https://github.com/JaseGrable) | [LinkedIn](https://www.linkedin.com/in/jase-grable/) |
+#### | **By Jase Grable** | **[Github](https://github.com/JaseGrable)** | **[LinkedIn](https://www.linkedin.com/in/jase-grable/)** |
 
 ## Technologies Used
 
