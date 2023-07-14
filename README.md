@@ -4,8 +4,6 @@
 
 #### | **By Jase Grable** | **Github** | **LinkedIn** |
 
-| ----------------------------- | ------------------------------------------------- | ------------------------------------------------------------- |
-
 | Jase Grable | [Github](https://github.com/JaseGrable) | [LinkedIn](https://www.linkedin.com/in/jase-grable/) |
 
 ## Technologies Used
