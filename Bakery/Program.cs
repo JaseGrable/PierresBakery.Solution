@@ -26,6 +26,7 @@ namespace Bakery
                 Bread breadOrder = new Bread(BreadCount);
                 int breadPrice = breadOrder.BreadCost();
                 int discountBreadPrice = breadOrder.BreadDiscount(breadPrice);
+                Console.WriteLine("The total for your bread will be:");
                 Console.WriteLine("$" + discountBreadPrice);
                 return discountBreadPrice;
             }
@@ -33,6 +34,25 @@ namespace Bakery
             {
                 Console.WriteLine("Please enter a number");
                 return Bread();
+            }
+        }
+        static int Pastry()
+        {
+            Console.WriteLine("Pastries are $2 each, please enter how many pastries you would like to buy");
+            string input = Console.ReadLine();
+            if (Int32.TryParse(input, out int pastryCount))
+            {
+                Pastry pastryOrder = new Pastry(pastryCount);
+                int pastryPrice = pastryOrder.PastryCost();
+                int discountPastryPrice = pastryOrder.PastryDiscount(pastryPrice);
+                Console.WriteLine("The total for your pastries will be:");
+                Console.WriteLine("$" + discountPastryPrice);
+                return discountPastryPrice;
+            }
+            else
+            {
+                Console.WriteLine("Please enter a number");
+                return Pastry();
             }
         }
     }
