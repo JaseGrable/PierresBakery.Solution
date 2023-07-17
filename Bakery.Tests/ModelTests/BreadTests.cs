@@ -30,10 +30,10 @@ namespace Bakery.Tests
             Assert.AreEqual(15, result);
         }
         [TestMethod]
-        public void LoafDiscount_SubractsDiscountFromBreadPrice_Int()
+        public void LoafDiscount_SubractDiscountFromBreadPrice_Int()
         {
             Bread newBread = new Bread(3);
-            int price = newBread.BreadDiscount(price);
+            int price = newBread.BreadCost();
             int discountPrice = newBread.BreadDiscount(price);
             Assert.AreEqual(10, discountPrice);
         }
