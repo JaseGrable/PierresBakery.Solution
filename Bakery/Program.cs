@@ -16,6 +16,10 @@ namespace Bakery
             Console.WriteLine("Pastries are $2 each");
             Console.WriteLine("Remember! Buy 2 loaves of bread, get 1 free & Buy 3 pastries get 1 free");
             int discountBreadPrice = Bread();
+            int discountPastryPrice = Pastry();
+            int total = discountBreadPrice + discountPastryPrice;
+            Console.WriteLine("The total for your order will be:");
+            Console.WriteLine("$" + total);
         }
         static int Bread()
         {
